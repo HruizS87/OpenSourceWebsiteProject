@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 10%;
+    text-align: center;
+}
+
+#header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto 20px; /* Centers the logo and adds space below */
+}
+
+header h1 {
+    margin-bottom: 5px; /* Adds a little space under the heading */
+    font-size: 2em;
+}
+
+header p {
+    font-size: 1em;
+    margin-bottom: 0; /* Ensures no extra space below the tagline */
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+#payment-section {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#payment-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#payment-form label {
+    margin-top: 1em;
+}
+
+#payment-form input {
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+#payment-submit {
+    margin-top: 2em;
+    padding: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#payment-submit:hover {
+    background-color: #45a049;
+}
+

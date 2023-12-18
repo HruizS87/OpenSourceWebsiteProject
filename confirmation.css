@@ -1,0 +1,35 @@
+/* Add this to your existing styles.css or create a new confirmation.css file */
+#confirmation {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+#order-details {
+    margin-top: 20px;
+}
+
+
+#footer-nav ul {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display the list items inline */
+    justify-content: center; /* Center the items horizontally */
+    gap: 20px; /* Add some space between items */
+}
+
+#footer-nav li {
+    padding: 8px; /* Add some padding around each link */
+}
+
+#footer-nav a {
+    text-decoration: none; /* Remove default link underline */
+    color: blue; /* Set a color for the links */
+}
+
+#footer-nav a:hover {
+    color: darkblue; /* Darken link color on hover for visual feedback */
+}

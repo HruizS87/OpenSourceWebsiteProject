@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif; /* Sets default font */
+    background-color: #fff; /* White background for the page */
+    margin: 0; /* Resets default margin */
+    padding: 20px; /* Adds padding around the content */
+}
+
+/* Styling for the cart link element */
+#cart-link {
+    position: fixed; /* Fixed position to keep it in view */
+    top: 20px; /* Position from the top */
+    right: 20px; /* Position from the right */
+}
+
+/* Styles for the cart icon image */
+#cart-icon {
+    width: 50px; /* Fixed width */
+    height: auto; /* Height adjusts automatically */
+}
+
+/* Margin for the cart items container */
+#cart-items {
+    margin-top: 20px; /* Adds top margin */
+}
+
+/* Styles for each cart item */
+.cart-item {
+    border-bottom: 1px solid #eaeaea; /* Bottom border for each item */
+    padding: 10px 0; /* Padding above and below each item */
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Vertically centers items in the flex container */
+}
+
+/* Styles for the image in cart items */
+.cart-item-image {
+    width: 80px; /* Fixed width */
+    height: auto; /* Height adjusts automatically */
+    margin-right: 20px; /* Right margin for spacing */
+}
+
+/* Flex-grow for cart item information to take available space */
+.cart-item-info {
+    flex-grow: 1;
+}
+
+/* Styling for the cart item name */
+.cart-item-name {
+    font-size: 1.2em; /* Larger text size */
+    color: #333; /* Dark grey color */
+}
+
+/* Styles for price and quantity to make them stand out */
+.cart-item-price,
+.cart-item-quantity {
+    color: red; /* Red color for emphasis */
+    font-weight: bold; /* Bold font */
+}
+
+/* Styling for the order summary section */
+#order-summary {
+    margin-top: 20px; /* Top margin */
+    padding: 20px; /* Padding inside the box */
+    border: 1px solid #eaeaea; /* Border around the section */
+}
+
+/* Style for the heading in order summary */
+#order-summary h2 {
+    font-size: 1.5em; /* Slightly larger text */
+    margin-bottom: 10px; /* Margin below the heading */
+}
+
+.checkout-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0; /* Adjust margins as needed */
+    background-color: #007bff; /* Bootstrap primary button color */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.checkout-button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.quantity-input {
+    width: 30px; /* Adjust the width as needed */
+    text-align: center; /* Center the text inside the input box */
+    margin-right: 10px; /* Optional: adds some space between the input box and the remove button */
+}
+
+
+/* Add responsive styles as needed */
+@media (max-width: 600px) {
+    .cart-item {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .cart-item-image {
+        margin-bottom: 10px;
+    }
+}
+
+#top-nav ul {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display the list items inline */
+    justify-content: center; /* Center the items horizontally */
+    gap: 20px; /* Add some space between items */
+}
+
+#top-nav li {
+    padding: 8px; /* Add some padding around each link */
+}
+
+#top-nav a {
+    text-decoration: none; /* Remove default link underline */
+    color: blue; /* Set a color for the links */
+}
+
+#top-nav a:hover {
+    color: darkblue; /* Darken link color on hover for visual feedback */
+}
+
+
+
+#footer-nav ul {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display the list items inline */
+    justify-content: center; /* Center the items horizontally */
+    gap: 20px; /* Add some space between items */
+}
+
+#footer-nav li {
+    padding: 8px; /* Add some padding around each link */
+}
+
+#footer-nav a {
+    text-decoration: none; /* Remove default link underline */
+    color: blue; /* Set a color for the links */
+}
+
+#footer-nav a:hover {
+    color: darkblue; /* Darken link color on hover for visual feedback */
+}

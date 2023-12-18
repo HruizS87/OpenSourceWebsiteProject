@@ -1,0 +1,98 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, nav, header, main, footer {
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Removes default list styling */
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+    position: relative; /* Ensures that absolute positioning can be relative to the body */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline; /* Aligns nav items in a row */
+    margin-right: 20px; /* Adds spacing between nav items */
+}
+
+nav a {
+    color: #ffffff; /* Change this to a color that has a good contrast against the #333 background */
+    text-decoration: none; /* Removes underline from links */
+    font-size: 1em; /* Adjust the font size as necessary */
+    text-shadow: 1px 1px 2px #000000; /* Optional: Adds a shadow for better readability */
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto; /* Adds top and bottom margin for spacing */
+    padding: 2rem;
+}
+
+#cart-link {
+    text-decoration: none; /* Removes underline from link */
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 10; /* Ensures the link is above other elements */
+}
+
+#cart-icon {
+    width: 50px; /* Example size, adjust as necessary */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes any default link padding/margin */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    position: relative; /* Ensures footer content is properly positioned */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    nav li {
+        display: block; /* Stacks nav items vertically on smaller screens */
+        margin-right: 0; /* Removes right margin on smaller screens */
+    }
+
+    nav a {
+        font-size: 0.8em; /* Adjusts font size for smaller screens */
+    }
+
+    #cart-link {
+        top: 10px; /* Adjusts position for smaller screens */
+        right: 10px;
+    }
+
+    #cart-icon {
+        width: 40px; /* Adjusts size for smaller screens */
+    }
+}

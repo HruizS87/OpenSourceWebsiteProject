@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment - TechGearHub</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <header>
+        <div id="header-content">
+            <img src="logo.png" alt="TechGearHub Logo" id="logo">
+            <h1>TechGearHub - Secure Payment</h1>
+            <p>Complete your purchase with confidence.</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="payment-section">
+            <h1>Payment Details</h1>
+            <!-- Payment form: When submitted, the form data is sent to process_payment.php on the server -->
+            <form id="payment-form" action="process_payment.php" method="post">
+                <!-- Form fields for card number, expiry date, and CVC -->
+                <label for="card-number">Card Number:</label>
+                <input type="text" id="card-number" name="card-number" required>
+
+                <label for="expiry-date">Expiry Date:</label>
+                <input type="text" id="expiry-date" name="expiry-date" required>
+
+                <label for="cvc">CVC:</label>
+                <input type="text" id="cvc" name="cvc" required>
+
+                <!-- Submission button for the payment form -->
+                <button type="submit" id="payment-submit">Submit Payment</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- External JavaScript file for additional client-side logic -->
+    <script src="payment.js"></script>
+</body>
+</html>

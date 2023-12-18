@@ -1,0 +1,81 @@
+.product {
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+#cart-link {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+}
+
+#cart-icon {
+    width: 50px; /* Adjust as needed */
+    height: auto;
+    cursor: pointer;
+}
+
+#cart-count {
+    position: fixed;
+    top: 10px; /* Adjust as needed to align with cart icon */
+    right: 10px; /* Adjust as needed to align with cart icon */
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 0.7em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    z-index: 100;
+    box-sizing: border-box;
+}
+
+#top-nav ul {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display the list items inline */
+    justify-content: center; /* Center the items horizontally */
+    gap: 20px; /* Add some space between items */
+}
+
+#top-nav li {
+    padding: 8px; /* Add some padding around each link */
+}
+
+#top-nav a {
+    text-decoration: none; /* Remove default link underline */
+    color: blue; /* Set a color for the links */
+}
+
+#top-nav a:hover {
+    color: darkblue; /* Darken link color on hover for visual feedback */
+}
+
+
+
+#footer-nav ul {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display the list items inline */
+    justify-content: center; /* Center the items horizontally */
+    gap: 20px; /* Add some space between items */
+}
+
+#footer-nav li {
+    padding: 8px; /* Add some padding around each link */
+}
+
+#footer-nav a {
+    text-decoration: none; /* Remove default link underline */
+    color: blue; /* Set a color for the links */
+}
+
+#footer-nav a:hover {
+    color: darkblue; /* Darken link color on hover for visual feedback */
+}

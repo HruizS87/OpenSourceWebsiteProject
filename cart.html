@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cart.css">
+    <title>Shopping Cart - TechGearHub</title>
+</head>
+
+<header>
+    <nav id="top-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="laptops.html">Laptops</a></li>
+            <li><a href="tablets.html">Tablets</a></li>
+            <li><a href="gaming-consoles.html">Gaming Consoles</a></li>
+            <li><a href="cellphones.html">Cellphones</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+
+    <a href="cart.html" id="cart-link">
+        <img src="cart.png" alt="Shopping Cart" id="cart-icon">
+    </a>
+
+    <!-- Cart items list -->
+    <div id="cart-items">
+        <!-- Items dynamically added here via cart.js -->
+        <!-- The JavaScript file cart.js contains logic for manipulating this div -->
+        <!-- It handles adding, updating, and removing cart items based on user actions or data retrieval -->
+    </div>
+
+    <!-- Order Summary -->
+    <div id="order-summary">
+        <h2>Order Summary</h2>
+        <p>Total Items: <span id="total-items">0</span></p>
+        <p>Total Price: <span id="total-price">0.00</span></p>
+    </div>
+
+    <!-- Proceed to Checkout Link -->
+    <a href="#" id="proceed-to-checkout" class="checkout-button">Proceed to Checkout</a>
+
+    <script src="cart.js"></script>
+</body>
+
+<footer id="footer-nav">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="laptops.html">Laptops</a></li>
+        <li><a href="tablets.html">Tablets</a></li>
+        <li><a href="gaming-consoles.html">Gaming Consoles</a></li>
+        <li><a href="cellphones.html">Cellphones</a></li>
+        <li><a href="about.html">About Us</a></li>
+    </ul>
+</footer>
+
+</html>

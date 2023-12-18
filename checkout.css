@@ -1,0 +1,73 @@
+/* General font style for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Universal box-sizing for consistency in element sizing */
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/* Styling for header and footer */
+header, footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+/* Padding for the main content area */
+main {
+    padding: 1rem;
+}
+
+/* Styling for the checkout section */
+#checkout {
+    max-width: 600px; /* Maximum width */
+    margin: 0 auto; /* Center align */
+    padding: 1rem;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+/* Margin style for form sections */
+.form-section {
+    margin-bottom: 1rem;
+}
+
+/* Styling for section headers within forms */
+.form-section h2 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: .5rem;
+}
+
+/* Label styling */
+label {
+    display: block; /* Makes label a block element */
+    margin: .5rem 0;
+}
+
+/* Styling for text, email, and telephone input fields */
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%; /* Full width */
+    padding: .5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+}
+
+/* Button styling */
+button {
+    background: #007bff;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+    background: #0056b3;
+}
